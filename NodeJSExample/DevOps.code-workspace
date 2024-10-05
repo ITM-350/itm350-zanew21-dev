@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "awesome-team-repo",
+			"path": "../../awesome-team-repo"
+		}
+	],
+	"settings": {}
+}
