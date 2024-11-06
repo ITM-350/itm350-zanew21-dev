@@ -17,6 +17,8 @@ jobs:
 
       - name: Check out the repo
         uses: actions/checkout@v4
+
+      - run: |
           npm install
        
       - name: Log in to Docker Hub
