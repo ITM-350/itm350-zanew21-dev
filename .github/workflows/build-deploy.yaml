@@ -17,8 +17,10 @@ jobs:
 
       - name: Check out the repo
         uses: actions/checkout@v4
-
-      - run: |
+      
+      - name: Install dependencies
+        run: |
+          cd ./BB/node-bulletin-board/bulletin-board-app
           npm install
       
       - name: Log in to Docker Hub
